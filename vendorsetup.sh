@@ -10,7 +10,7 @@ echo 'Cloning dolby'
 rm -rf hardware/dolby && git clone https://github.com/MySelly/android_hardware_dolby -b 16.0 hardware/dolby
 
 echo 'Cloning kernel'
-rm -rf kernel/xiaomi/garnet && git clone https://github.com/crdroidandroid/android_xiaomi_kernel_garnet -b 16.0 kernel/xiaomi/garnet
+rm -rf kernel/xiaomi/garnet && git clone https://github.com/GarnetHub/android_xiaomi_kernel_garnet -b 16.0 kernel/xiaomi/garnet
 
 echo 'Cloning kernel modules'
 rm -rf kernel/xiaomi/garnet-modules && git clone https://github.com/MySelly/android_kernel_xiaomi_garnet-modules -b lineage-23.0 kernel/xiaomi/garnet-modules
