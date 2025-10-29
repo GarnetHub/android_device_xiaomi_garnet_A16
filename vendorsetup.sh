@@ -17,6 +17,3 @@ rm -rf kernel/xiaomi/garnet-modules && git clone https://github.com/MySelly/andr
 
 echo 'Cloning kernel devicetrees'
 rm -rf kernel/xiaomi/garnet-devicetrees && git clone https://github.com/MySelly/android_kernel_xiaomi_garnet-devicetrees -b lineage-23.0 kernel/xiaomi/garnet-devicetrees
-
-echo 'Cloning vendor crdroid'
-rm -rf vendor/lineage && git clone https://github.com/SonicGFX/android_vendor_crdroid -b 16.0 vendor/lineage
