@@ -160,6 +160,13 @@ debug.sf.disable_client_composition_cache=1
 debug.sf.enable_transaction_tracing=false
 debug.sf.enable_gl_backpressure=0
 debug.sf.hw=0
+debug.sf.early.app.duration=16500000
+debug.sf.early.sf.duration=16000000
+debug.sf.earlyGl.app.duration=21000000
+debug.sf.earlyGl.sf.duration=13500000
+debug.sf.late.app.duration=20500000
+debug.sf.late.sf.duration=10500000
+debug.sf.use_phase_offsets_as_durations=1
 debug.sf.predict_hwc_composition_strategy=0
 debug.sf.set_idle_timer_ms=500
 debug.sf.treat_170m_as_sRGB=1
@@ -285,6 +292,7 @@ debug.sf.region_sampling_timer_timeout_ns=200000000
 debug.sf.region_sampling_period_ns=200000000
 ro.egl.blobcache.multifile=true
 ro.egl.blobcache.multifile_limit=33554432
+vendor.display.override_doze_mode=1
 
 # Adaptive Suspend
 suspend.short_suspend_threshold_millis=5000
