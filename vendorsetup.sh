@@ -19,4 +19,4 @@ echo 'Cloning kernel devicetrees'
 rm -rf kernel/xiaomi/garnet-devicetrees && git clone https://github.com/MySelly/android_kernel_xiaomi_garnet-devicetrees -b lineage-23.0 kernel/xiaomi/garnet-devicetrees
 
 echo 'Cloning gapps'
-rm -rf vendor/gapps && git clone https://gitlab.com/SenseiDEVLinux/vendor-gapps-16 -b baklava vendor/gapps
+rm -rf vendor/gapps && rm -rf vendor/gms && git clone https://gitlab.com/SenseiDEVLinux/android_vendor_gms_16 -b lineage-23.0 vendor/gms
